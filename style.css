@@ -1,0 +1,59 @@
+body {
+  background-color: #303446;
+
+
+}
+
+h1 {
+  color: rgb(138, 173, 244) !important;
+
+
+}
+
+#musicHeader {
+  color: #1e66f5;
+  text-decoration: underline;
+
+}
+
+.songMessage {
+
+  color: rgba(230, 69, 83, 0.8);
+  font-style: italic !important;
+}
+
+/*FIX: check the rbga,hsla on button */
+
+li {
+  color: hsl(199deg, 55%, 69%);
+
+}
+
+.songMessage p {
+  background-color: #181926;
+  padding: 8px;
+  border-radius: 8px;
+  font-style: oblique;
+
+}
+
+ul>li {
+  list-style-type: square;
+
+}
+
+ul>li:nth-child(2) {
+  color: hsl(267deg, 84%, 81%);
+
+}
+
+ol>li:first-child~li {
+
+  color: hsl(299deg, 55%, 69%);
+
+}
+
+img {
+  width: 50vw;
+
+}
